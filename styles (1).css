@@ -1,0 +1,54 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+#wholecontainer .dish{
+padding:40px;
+margin:50px;
+}
+
+#wholecontainer{
+display:flex;
+margin-left:150px;
+}
+
+.dish{
+	border: 4px solid gray;
+	padding : 20px;
+	background-color:lightgrey;
+	display:inline-block;
+	width:250px;
+	border-radius:50px;
+}
+
+.dish h2{
+	color:darkblue;
+	text-align:center;
+}
+
+.dish p{
+border: 4px solid red;
+padding: 10px;
+border-radius:15px;
+}
+
+.dish img{
+padding:10px;
+border-radius:25px;
+align-items:center;
+}
+
+
+.dish button{
+margin-left:87.5px;
+padding:8px;
+background-color:skyblue;
+border-radius:12px;
+}
+
+.dish button:hover{
+padding:10px;
+background-color:darkgoldenrod;
+
+}
